@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flip-Card</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+  <div class="popup-container">
+    <div class="popup">
+      <h2 class="popup-heading">Welcome to Flip-Card Game</h2>
+      <p class="popup-para">You get couple of seconds to memorize the images with their positions. After that, you have to match the same images in pair of 2. For Every correct match you get 100 points and for every wrong match you lose 10 points. The goal is to get the highest points. Enjoy!!!</p>
+      <button type="button" onclick="hidePopup();" class="button popup-btn">Start Game</button>
+    </div>
+  </div>
+<div id="popup-effected-blur-area">
+  <header>
+    <h1 id="heading">Flip Card</h1>
+    <h1>Score: <span id="score">0</span></h1>
+  </header>
+  <div class="container">
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front" onclick="flip(this)">
+        </div>
+        <div class="flip-card-back" id="card-1">
+        </div>
+      </div>
+    </div>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front" onclick="flip(this)">
+        </div>
+        <div class="flip-card-back" id="card-2">
+        </div>
+      </div>
+    </div>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front" onclick="flip(this)">
+        </div>
+        <div class="flip-card-back" id="card-3">
+        </div>
+      </div>
+    </div>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front" onclick="flip(this)">
+        </div>
+        <div class="flip-card-back" id="card-4">
+        </div>
+      </div>
+    </div>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front" onclick="flip(this)">
+        </div>
+        <div class="flip-card-back" id="card-5">
+        </div>
+      </div>
+    </div>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front" onclick="flip(this)">
+        </div>
+        <div class="flip-card-back" id="card-6">
+        </div>
+      </div>
+    </div>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front" onclick="flip(this)">
+        </div>
+        <div class="flip-card-back" id="card-7">
+        </div>
+      </div>
+    </div>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front" onclick="flip(this)">
+        </div>
+        <div class="flip-card-back" id="card-8">
+        </div>
+      </div>
+    </div>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front" onclick="flip(this)">
+        </div>
+        <div class="flip-card-back" id="card-9">
+        </div>
+      </div>
+    </div>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front" onclick="flip(this)">
+        </div>
+        <div class="flip-card-back" id="card-10">
+        </div>
+      </div>
+    </div>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front" onclick="flip(this)">
+        </div>
+        <div class="flip-card-back" id="card-11">
+        </div>
+      </div>
+    </div>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front" onclick="flip(this)">
+        </div>
+        <div class="flip-card-back" id="card-12">
+        </div>
+      </div>
+    </div>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front" onclick="flip(this)">
+        </div>
+        <div class="flip-card-back" id="card-13">
+        </div>
+      </div>
+    </div>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front" onclick="flip(this)">
+        </div>
+        <div class="flip-card-back" id="card-14">
+        </div>
+      </div>
+    </div>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front" onclick="flip(this)">
+        </div>
+        <div class="flip-card-back" id="card-15">
+        </div>
+      </div>
+    </div>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front" onclick="flip(this)">
+        </div>
+        <div class="flip-card-back" id="card-16">
+        </div>
+      </div>
+    </div>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front" onclick="flip(this)">
+        </div>
+        <div class="flip-card-back" id="card-17">
+        </div>
+      </div>
+    </div>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front" onclick="flip(this)">
+        </div>
+        <div class="flip-card-back" id="card-18">
+        </div>
+      </div>
+    </div>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front" onclick="flip(this)">
+        </div>
+        <div class="flip-card-back" id="card-19">
+        </div>
+      </div>
+    </div>
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front" onclick="flip(this)">
+        </div>
+        <div class="flip-card-back" id="card-20">
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+</div>
+</body>
+<script src="script.js"></script>
+
+</html>
