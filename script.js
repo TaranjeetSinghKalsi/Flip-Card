@@ -132,6 +132,7 @@ function hidePopup() {
 }
 
 function showWinningPopup(){
+    document.querySelector(".win-popup").classList.add("win-animate");
     document.querySelector('.popup-heading').innerText='Hurrah !!! You have won the Game';
     document.querySelector('.popup-para').innerText='Congratulations on completing the Flip Card Game. I hope you enjoyed and had a great time playing.';
     document.querySelector('.popup-btn').style.display='none';
